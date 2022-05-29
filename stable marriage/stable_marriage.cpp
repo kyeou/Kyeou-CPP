@@ -70,7 +70,7 @@ int main()
 {
 
     // read size
-    INT_INPUT(":", N);
+    INT_INPUT("", N);
     //printf("%d", N);
 
     // std::vector<int> test = {1, 2, 3};
