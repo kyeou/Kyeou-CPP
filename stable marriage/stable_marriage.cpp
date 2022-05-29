@@ -109,7 +109,7 @@ int main()
     {
         int a, b;
         std::cin >> a >> b;
-         matchings.push_back(b);
+        matchings.push_back(b);
        
     }
 
@@ -117,9 +117,7 @@ int main()
 
   for (int i = 1; i <= N; i++) {
             for (int j = 1; j <= N; j++) {
-                if (check_unstable(i, j)) {
-                    not_stable++;
-                }
+                IF_THEN(check_unstable(i, j), not_stable++)
             }
         }
 

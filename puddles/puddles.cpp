@@ -41,10 +41,7 @@ int main()
     for (int i = 0; i < R; i++)
     {
         std::vector<bool> temp;
-        for (int j = 0; j < C; j++)
-        {
-            temp.push_back(false);
-        }
+        for (int j = 0; j < C; j++) { temp.push_back(false); }
         visited.push_back(temp);
     }
 
