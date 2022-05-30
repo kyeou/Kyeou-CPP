@@ -36,7 +36,7 @@ bool check_unstable(int currManID, int currWomanID) {
 
         for (int i = 0; i < N; i++) {
             if (matchings[i] == currWomanID) {
-                herCurrMatch = matchings[i];
+                herCurrMatch = i+1;
                 // System.out.println("Matchings[i] " + matchings[i] + " i=>" + i);
             }
         }
